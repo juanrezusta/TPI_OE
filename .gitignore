@@ -21,3 +21,32 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+# === ENTORNO PYTHON ===
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# === VARIABLES SENSIBLES ===
+.env
+*.env
+
+# === CREDENCIALES ===
+credenciales.json
+credentials.json
+
+# === ARCHIVOS GENERADOS POR TU APP ===
+respaldo_*.csv
+last_log.txt
+
+# === CONFIGURACION IDE ===
+.vscode/
+.idea/
+
+# === SISTEMA OPERATIVO ===
+.DS_Store
+Thumbs.db
+
+# === ARCHIVOS TEMPORALES ===
+*.tmp
+*.log
